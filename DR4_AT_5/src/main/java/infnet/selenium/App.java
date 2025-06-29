@@ -9,10 +9,9 @@ public class App
             NotificationChannel sms = new SmsNotification();
             NotificationChannel push = new PushNotification();
 
-            service.notifyUser(email, "Welcome to our platform!");
-            service.notifyUser(sms, "Your verification code is 123456.");
-            service.notifyUser(push, "You have a new message.");
+            service.notifyUser(email, "email message");
+            service.notifyUser(sms, "sms message");
+            service.notifyUser(push, "push message");
         }
     }
-
 
