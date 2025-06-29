@@ -22,6 +22,6 @@ public class User {
         return Collections.unmodifiableList(addresses);
     }
 
-    // Getters and setters omitted for brevity
+    public String getName() { return name; }
+    public String getEmail() { return email; }
 }
-
